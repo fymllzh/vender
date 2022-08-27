@@ -16,6 +16,7 @@
     "autoload": {
         "psr-4": {
             "FFMBase\\Export\\": "src/Export",
+            "FFMBase\\Util\\": "src/Util",
             "FFMBase\\": "src/"
         }
     }
