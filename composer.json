@@ -1,0 +1,25 @@
+{
+    "name": "ceshi/download",
+    "description": "This a demo for build composer packagist .",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Zhihao Li",
+            "email": "li@baidu.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "FFMBase\\Export\\": "src/Export",
+            "FFMBase\\Util\\": "src/Util"
+        },
+        "psr-0": {
+            "": ""
+        }
+    }
+}
