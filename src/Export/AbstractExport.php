@@ -24,7 +24,7 @@ abstract class AbstractExport
 
     public function __construct($params)
     {
-        $this->params = $params; //参数数组
+        $this->params = $params; //参数数组..
         $this->random = date('YmdHis') . '_' . mt_rand(10000000, 99999999); //随机数
         $this->maxNumber = self::MAX_NUMBER; //单文件最大记录数
     }
